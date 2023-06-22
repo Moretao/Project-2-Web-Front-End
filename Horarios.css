@@ -1,0 +1,75 @@
+.column3 table {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #EBEBEB;
+
+}
+
+.column3 h2 {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.container1 {
+    margin: 75px;
+    text-align: center;
+}
+
+.container1 td {
+    display: block;
+    font-size: 20px;
+}
+
+.container1 th {
+    font-size: 30px;
+}
+
+.column4 table {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: #EBEBEB;
+}
+
+.column4 h2 {
+    text-align: center;
+}
+
+.container2 {
+    margin: 75px;
+    text-align: center;
+}
+
+.container2 td {
+    display: block;
+    font-size: 20px;
+}
+
+.container2 th {
+    font-size: 30px;
+}
+
+
+.banner2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    justify-content: flex-end;
+}
+
+.banner2 h1 {
+    text-align: center;
+}

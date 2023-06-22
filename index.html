@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - Coleta</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="Horarios.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--NAV-->
+    <nav>
+        <div class="logo">
+            <img src="./componentes/logo.png" alt="">
+        </div>
+        <ul class="nav_menu">
+            <li><a href="https://site.sanepar.com.br/informacoes-tecnicas/225">SANEPAR</a></li>
+            <li><a href="https://www.cornelioprocopio.pr.gov.br/portal/index.php">Prefeitura</a></li>
+        </ul>
+    </nav>
+    <!--Fim Nav-->
+    <!-- Banner -->
+    <div class="banner">
+        <div class="column1">
+            <img src="/componentes/casal_limpando_lixo_2-removebg-preview (1).png" alt="Imagem Bonitinha">
+        </div>
+        <div class="column2">
+            <div class="banner_text">
+                <img src="./componentes/logo.png" alt="">
+                <h2>Transformando resíduos em ações sustentáveis</h2>
+            </div>
+            <a href="#horarios" class="btn">Horários de Coleta</a>
+
+        </div>
+
+    </div>
+    <!-- Fim Banner -->
+
+    <!-- Dicas -->
+
+    <section class="post">
+        <div class="Dicas">
+            <h1>DICAS DE RECICLAGEM</h1>
+
+            <h2>Cadastre uma dica</h2>
+
+            <div class="ContainerDicas">
+
+                <form id="cadastroForm">
+                    <label for="materialInput">Material:</label>
+                    <select id="materialInput" required>
+                        <option value="">Selecione um material</option>
+                        <option value="plastico">Plástico</option>
+                        <option value="metal">Metal</option>
+                        <option value="papel">Papel</option>
+                        <option value="vidro">Vidro</option>
+                        <option value="organico">Orgânico</option>
+                    </select>
+
+                    <label for="dicaInput">Dica:</label>
+                    <input type="text" id="dicaInput" required>
+                    <button id="btnSubmit" type="submit">Cadastrar</button>
+                </form>
+
+                <h2>Lista de dicas cadastradas</h2>
+
+                <div id="listaDicas"></div>
+
+
+                <!-- <h2>Filtrar dicas por material</h2> -->
+
+                <div class="Filtro">
+
+                    <label for="filtroInput">Filtre um material:</label>
+                    <select id="filtroInput" required>
+                        <option value="">Todos</option>
+                        <option value="plastico">Plástico</option>
+                        <option value="metal">Metal</option>
+                        <option value="papel">Papel</option>
+                        <option value="vidro">Vidro</option>
+                        <option value="organico">Orgânico</option>
+                    </select>
+                    <button id="filtroButton">Filtrar</button>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Dicas -->
+
+        <!-- Inicio 1 Sessão de Horários -->
+
+        <div id="horarios" class="column3">
+
+            <div class="banner2">
+
+                <h1>HORÁRIOS DE COLETA</h1>
+                <img src="./componentes/coleta-.png" alt="coleta-">
+
+            </div>
+
+
+            <h2>1º Turno - A partir das 07:00 hrs</h2>
+            <div class="container1">
+
+                <!-- Cria uma tabela para os horários -->
+                <table>
+                    <th>Segunda-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Câmpus Universitários</td>
+                            <td>Ayrton Senna</td>
+                            <td>Fortunato Sibin</td>
+                            <td>Primavera</td>
+                            <td>Vale Verde</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Terça-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Alvorada</td>
+                            <td>São Pedro</td>
+                            <td>VI. Morena</td>
+                            <td>Bela Vista</td>
+                            <td>Bele Bergamasco</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Quarta-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Vila Mariana</td>
+                            <td>Vila dos Operários</td>
+                            <td>Veneza II</td>
+                            <td>Porto Belo</td>
+                            <td>José Tiburcio</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Quinta-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Panorama</td>
+                            <td>N.Sra Aparecida</td>
+                            <td>Staiger</td>
+                            <td>Cristo Rei</td>
+                            <td>Figueira</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Sexta-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Sebastião Cunha</td>
+                            <td>Mutirão I e II</td>
+                            <td>Pioneiros</td>
+                            <td>Nova Independência</td>
+                            <td>Vale das Margaridas</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Sábado</th>
+                    <tbody>
+                        <tr>
+                            <td>VI. Recreio</td>
+                            <td>Royal Garden Residence</td>
+                            <td>VI. da Antena</td>
+                            <td>João Rocha</td>
+                            <td>Henrique Vitorelli</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <!-- Fim da 2 Sessão de Horários -->
+
+        <!-- Inicio 2 Sessão de Horários -->
+
+        <div class="column4">
+
+            <h2>2º Turno - A partir das 16:00 hrs</h2>
+            <div class="container2">
+
+                <!-- Cria uma tabela para os horários -->
+                <table>
+                    <th>Segunda-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Novo Bandeirantes</td>
+                            <td>Jd. Europa</td>
+                            <td>Seugling</td>
+                            <td>Inácio</td>
+                            <td>Galeano</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Terça-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Bandeirantes</td>
+                            <td>VI. Daher</td>
+                            <td>Ipiranga</td>
+                            <td>VI. Henriques</td>
+                            <td>VI. Haddad</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Quarta-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Estoril</td>
+                            <td>Tauros</td>
+                            <td>Res. Marlene</td>
+                            <td>Orquideas</td>
+                            <td>Jardim Progresso</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Quinta-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Res. Vitória Régia</td>
+                            <td>S. Judas Tadeu</td>
+                            <td>Jardim Morumbi</td>
+                            <td>Res. Atlantico</td>
+                            <td>VI. Assad</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Sexta-Feira</th>
+                    <tbody>
+                        <tr>
+                            <td>Vila Américas</td>
+                            <td>Conj. Rosário Piteli</td>
+                            <td>Catarina</td>
+                            <td>Vila Sta. Terezinha</td>
+                            <td>Lago do Bosque</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <th>Sábado</th>
+                    <tbody>
+                        <tr>
+                            <td>VI. Paraiso</td>
+                            <td>João XXIII</td>
+                            <td>Jardim Pérola</td>
+                            <td>Jardim S. Silvestre I e II</td>
+                            <td>Conj. Vitória Régia</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <!-- Fim da 2 Sessão de Horários -->
+
+    </section>
+
+
+
+    <script src="./post.js"></script>
+</body>
+
+</html>

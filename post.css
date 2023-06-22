@@ -1,0 +1,185 @@
+.post {
+    position: absolute;
+    top: 100%;
+    background-color: #184655;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post h1 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin: 100px 100px;
+}
+
+.post h2 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.Dicas {
+    font-size: 30px;
+    color: #fff;
+    background-color: #184655;
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerDicas {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.azul {
+    color: blue;
+}
+
+.vermelho {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.amarelo {
+    color: #f9b122;
+}
+
+.marrom {
+    color: #7b573b;
+}
+
+
+#cadastroForm {
+    text-align: center;
+    margin: 50px 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastroForm select {
+    font-size: 30px;
+    background-color: #EBEBEB;
+}
+
+#dicaForm label {
+    margin: 50px;
+    background-color: #EBEBEB;
+}
+
+#dicaInput {
+    font-size: 30px;
+    background-color: #EBEBEB;
+}
+
+.Filtro {
+    text-align: center;
+    align-items: center;
+}
+
+#btnSubmit {
+    background-color: #1C9D44;
+    color: #fff;
+    padding: 9px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#listaDicas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 30px, 30px;
+    display: inline-block;
+    font-size: 30px;
+    align-items: center;
+}
+
+
+.dica-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #EBEBEB;
+    display: inline-block;
+}
+
+.excluir-button {
+    background-color: #E34D2B;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#filtroButton {
+    background-color: #1C9D44;
+    color: #fff;
+    padding: 9px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#filtroInput {
+    font-size: 30px;
+    background-color: #EBEBEB;
+}
+
+#filtroInput label {
+    font-size: 30px;
+    background-color: #EBEBEB;
+}
+
+.Excluir {
+    background-color: #E34D2B;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#obterNomeMaterial {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    /* font-size: 30px; */
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    /* font-size: 30px; */
+
+
+}
